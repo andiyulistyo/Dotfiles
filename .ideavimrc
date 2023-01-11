@@ -1,0 +1,31 @@
+Plug 'easymotion/vim-easymotion'
+Plug 'tpope/vim-surround'
+Plug 'preservim/nerdtree'
+
+
+set number relativenumber
+set scrolloff=5
+set incsearch
+set idearefactormode=keep
+set ideajoin
+set surround
+set easymotion
+
+let mapleader = " "
+
+" actions
+nmap <leader>r <action>(Run)
+nmap <leader>i <action>(Generate)
+nmap <leader>s <action>(Stop)
+nmap <leader>h <action>(PreviousTab)
+nmap <leader>l <action>(NextTab)
+nmap <leader>f <action>(ReformatCode)
+nmap <leader>e <action>(ShowErrorDescription)
+nmap <leader>b <action>(GotoDeclaration)
+nmap <leader>v <action>(SplitVertically)
+nmap <leader>p <action>($Paste)
+nmap <leader>n :NERDTree<cr>
+
+
+
+
